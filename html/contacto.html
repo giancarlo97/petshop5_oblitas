@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="petshop,world,shop,dog,cat,ecomerce,envios">
+    <meta name="description" content="el E-Comerce 'Worldshop', lugar donde conseguis todos los productos para tus mascotas. Con envios a todo el pais en las 24 hs ">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <section class="grilla_padre">
+
+    <header>
+
+        <a href="../index.html"><img class="logo"  src="https://icones.pro/wp-content/uploads/2021/08/icone-de-chat-endormi.png" alt="gatito_gris"></a>
+        
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="galeria.html">GALERIA</a></li>
+            <li><a href="contacto.html">CONTACTO</a></li>
+            <li><a href="ubicacion.html">UBICACION</a></li>
+            <li><a href="about.html">QUIENES SOMOS</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <h1>CONTACTO</h1>
+        
+        <form class="formulario" method="post">
+
+            <fieldset>
+                <legend>Datos del Usuario</legend>        
+
+                <div>
+                
+                    <label for="nombre"> Nombre</label>
+                    
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+            
+                <div>
+                    <label for="mail">E-mail</label>
+                    
+                    <input type="email" id="mail" name="mail" placeholder="Ingrese su Email" required>
+                </div>
+            
+                <div>
+                    <label for="tel">Teléfono</label>
+                    
+                    <input type="tel" id="tel" name="tel" placeholder="Ingrese su numero" required>
+                </div>
+            
+                <div>
+                    <label for="ig">Link a Instagram</label>
+                    
+                    <input type="url" id="ig" name="ig" placeholder="https://www.instagram.com/" required>
+                </div>
+        
+                <div>
+                    <label for="opciones">Motivo de su consulta</label>
+                    <select name="opciones" id="opciones" required>
+                        
+                        <option value=""selected disabled>Seleccione una opción</option>
+                        <option value="concierto">Sacar un turno</option>
+                        <option value="imagenes">Duda con un trámite</option>
+                        <option value="trabajo">Trabajar con ustedes</option>
+                    </select>
+                </div>
+            
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Tu mensaje o consulta..." required></textarea>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                
+                <legend>¿Cómo preferis que nos contactemos?</legend>
+                
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">E-mail</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">Teléfono</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">Instagram</label>
+                    </div>
+            </fieldset>
+        
+            <fieldset>
+                <legend>¿Cómo nos conociste?</legend>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Redes sociales</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Publicidad</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Recomendación</label>
+                    </div>
+            </fieldset>
+            
+        
+        
+        <button type="submit" value="Enviar" class="btn btn-success">Enviar</button>
+        <button type="reset" value="Borrar" class="btn btn-danger">Borrar</button>
+        <button type="reset" value="Resetear Formulario" class="btn btn-light">Resetear Formulario</button>
+        <input type="file">
+        </form>
+    </section>
+    
+
+    <footer>
+        <p> Gracias por visitar nuestra pagina, los esperamos.</p>
+        <p> Visite nuestras redes:</p>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+        <p>Powed by Giancarlo</p>
+
+    </footer>
+    </section>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
